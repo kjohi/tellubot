@@ -1,0 +1,123 @@
+# Description:
+#   None
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   nunn me - Returns a random Nunn quote
+#
+# Author:
+#   mittenchops, vquaiato
+
+quotes = [
+  '''I hardly know the answer to make to your letter of October 19th and the Resolution enclosed therewith.''',
+  '''The problem is one of self-government; the problem which was eloquently debated on Mars Hill before the birth of Christ, which has been considered in every great epoch of the world's history, the one to which Lincoln gave his life, and the one which the enemies of the Stars and Stripes say has been demonstrated to be a failure.''',
+  '''I don't believe it is a failure, moreover I believe young men facing the problem of life as students are better prepared for self-government than the average citizen of any country, of any age.''',
+  '''The work of the Association is to demonstrate the feasibility and advantages of self-government and to receive as compensation for that work the benefits passed on by the success of its stewardship to those still to come.''',
+  '''All is in the hands of the Association.''',
+  '''The work of the Directors has been done. Their mission, to create the Association, is ended.''',
+  '''The age of guardianship is passed, the die is cast.''',
+  '''To the members, and the members alone, the future is entrusted.''',
+  '''The only shadow of a reason for a different view might arise from a misunderstanding as to the condition of the property; but there should be no misunderstandig.''',
+  '''It has been for a long time absolutely fixed by will, for months past irrevocably declared to be a trust, and just as soon as I can make a trip east, presumably before the 15th of next month, it shall be lodged in the Association.''',
+  '''To the Association then, I must reply: You have no Directors, and the lives of your members must declare your purpose.''',
+  '''To the "Cornell Daily Sun", it occurs to me, the Association might with dignity say;-it is a few individuals impressed with the desirability of seriously considering, during their student life, the problems they will meet in their future active career; that it owns the property that it occupies and an endowment, which by good fortune or the good judgment of its members it is constantly increasing; that it is too modest in its expectations to parade its hopes or to believe that the public can be interested in its affairs beyond the simple facts that it pays its bills, minds its own business, and leaves its members free to form and maintain such relations with outside institutions and individuals as each in his individual capacity may elect, only requiring honorable conduct of all.''',
+  '''It is impossible to state the purpose of a single life, nor can the purpose of the Association be stated without narrowing it to a falsehood. ''',
+  '''You might say, as in the case of the Smithsonian, "For the increase and diffusion of knowledge", but any such declaration would be a presumptuous embarrassment. ''',
+  '''The wise management of your own affairs is no small matter and by accomplishing it the members will be prepared for the conduct of important affairs when they pass from their college life. ''',
+  '''The conditions of membership should not be given to the public. ''',
+  '''Other organizations do not publish their private affairs and if idle curiosity is allowed to beat itself upon the wires of its cage, no harm will result therefrom. ''',
+  '''It should be a source of pride, rather than otherwise, that "The Faculty knows nothing about it".''',
+  '''As to the statement that the members know nothing as to the purpose, I can only say that the confession is a disgrace to each one making it; for each one should know that his purpose is to execute well his stewardship, so as to leave the Association a little stronger if possible financially, and in all events stronger in honorable tradition than he found it; and that he goes out into the world better prepared to protect and nourish the interests committed to his charge, and to point, by his life at least, the better way within the community in which he lives.''',
+  '''In my humble opinion the talk about an explanation is the sheerest rot; but whatever it may be, the Institution itself and not outsiders should say what is said. ''',
+  '''After all, should it be so remarkable that mature students should be devoting their attention to the conduct of important affairs instead of going wild over football and shinny? ''',
+  '''This, too, is a question for the Association.''',
+  '''I greatly appreciate the honor you do me by requesting in your letter of May 18th my views as to what should be taken up by the coming convention.''',
+  '''Members of Telluride Association, as trustees of its property, are irrevocably pledged to use Association resources for the advancement of individual freedom and wise self-regulation as means to the main end of "promoting the highest well being."''',
+  '''The Preamble of the Constitution has been called vague. It is not vague. ''',
+  '''It states, in philosophic language, just the above. "Well being," which is a term well understood by all thinkers, is stated as the purpose, and freedom and self-control as the means by which the purpose is to be attained. ''',
+  '''To be sure, the Preamble adds "broadening the field of knowledge and increasing the adoption, as the rule of conduct, of those truths from which flows individual freedom." But knowledge is necessary to wise selfcontrol, and the adoption of rules of conduct consistent with freedom is essential to the obtaining and maintaining of freedom.''',
+  '''To reply definitely, then, to your inquiry: The coming Convention should investigate the Association's doings of the past year and ascertain the efficiency obtained by the trustees from the funds of the Association in promoting its declared purpose.''',
+  '''In considering efficiency, reference will undoubtedly be made to the past as well as to future opportunity. In the early days of the Association, a quarter of a century ago, it led in progressive work not confined to its members, but of value to the world. ''',
+  '''It was prominent in the application of air to remote transmission of power; it was conspicuous in the use of water under high pressure; it introduced many new mechanical appliances and methods in mining and milling; it became conspicuous in pioneer alternating electric current work. ''',
+  '''But such matters were only incidental results of the progressive spirit which was widely felt in more important ways.''',
+  '''Within the limits of its operations, it protected labor against disease and undue danger; it advanced education; it breathed a democratic spirit into all classes in the communities in which it operated, so that harmony pre*Early associate of L.L. Nunn and member of T.A. availed where strife had previously existed between employer and employee.''',
+  '''The convention adopting the Constitution did not declare that the purpose SHALL be, but that "the purpose IS to promote well being." ''',
+  '''The Convention had a quarter of a century of history and tradition to guide it, and the Constitution was more a declaration in writing of what was and what had been for a long time the unwritten law of the Association than new rules for the future.''',
+  '''There are those among the old veterans who had made the Association, or the Institute as it was then called, conspicuous for honorable and noble achievement, who feel, and perhaps correctly, that the present trustees of its honor and its funds are not fulfilling the obligations of their trust. ''',
+  '''Attention is called to the fact that little is being done to promote general well being outside of the Association, that in too many instances the members themselves are not examples of freedom and manly self-control, and that expenditures on their behalf do not produce efficient results.''',
+  '''To be more specific: Failure to control one's finances results in disastrous bondage-undermines character and destroys the power to discern equities. ''',
+  '''Some of the most startling instances have occurred within the past year of members actually thinking themselves ill-treated when they were required to pay their honest debts. ''',
+  '''The income of the individual has little to do with the matter. ''',
+  '''It is plainly a question of self-government. ''',
+  '''This subject should be investigated and action should be taken by the Convention.''',
+  '''Perhaps the Association should require members and applicants to keep accurate, systematic accounts and render monthly balance sheets to a financial committee.''',
+  '''Such balance sheets should not show expenditures in detail or reveal private affairs, but simply show totals of perhaps a dozen accounts, such as traveling, clothing, amusement, books, etc. ''',
+  '''Such a practice would be of the greatest help to new members and would relieve them from much embarrassment and many mistakes.''',
+  '''The Association should investisate the subject of the use of intoxicants and the effect on the efficiency of the Association and the individual. ''',
+  '''Why should an institution claiming to be in the advance ranks ignore a matter of such vast importance which has received especial attention from the principal Governments of the world, including England, Germany, and our own?''',
+  '''Permitting intoxication by the members violates the fundamental trust of the Association, and the Convention should consider whether or not the use of intoxicants should be permitted.''',
+  '''The use of tobacco and its effects on the Association and the individual should be investigated, and the Association should be governed by the results of such investigation. ''',
+  '''If tobacco destroys the moral sense, reduces the scholastic standing, destroys ability to reason clearly and correctly, injures the judgment of the members in their life work, and endangers the Association through the general conduct of its affairs, its use is surely contrary to the declared trust.''',
+  '''General deportment should be considered and an effort made to secure more uniform results. ''',
+  '''There must be some reason for the deplorable moral vision shown in a number of instances, such as the justification of improper experiences by the asserted desirability of knowing how one feels after having indulged. ''',
+  '''The same argument might be urged in favor of committing forgery, rape, or any other act, but I will not refer to instances.''',
+  '''They will be brought up by the scores if the Convention goes into the subject of efficiency in order to determine who should and who should not receive appropriations. In many instances it would be found that a dollar has not done the work which fifty cents should have done; that preferments have too often been the result of personal sentiment rather than principle; that an attitude of lawless unitism better adapted to the savage who recognizes no obligation to the community in which he lives and relies on his brute force or cunning than to members of an Association under the obligation assumed by the execution of the declaration of trust, has too often been indulged in.''',
+  '''The impulsive selection of officers without due consideration as to their fitness by reason of their experience and general qualifications should be checked by by-laws or tradition.''',
+  '''The degree of self-government which should be extended by the Association to its different Branches should be considered. ''',
+  '''The failure of various Branches to enforce business integrity and the fulfillment of personal promises on the part of its members should be taken up in connection with the problem of Branch Government.''',
+  '''The above suggestions refer to members. ''',
+  '''The whole problem of perpetuating the Association by carefully selecting new members from the large numbers of applicants should be provided for by the appointment of a committee to act in conjunction with the Chancellor and Dean.''',
+  '''I beg you not to misunderstand what I have written or the spirit which has prompted it.''',
+  '''I have no desire to exercise any influence over Association affairs beyond the power of my single vote and my appeal to the judgment of my fellow members. ''',
+  '''I am not losing faith in democratic principles as adopted by the Association, but I recognize a certain wobbling and the necessity for more ballast to protect the ship in the storm. ''',
+  '''The failure of popular government in the past has been occasioned by the lack of the exercise of high moral principles by the people, and in our own little affairs the tendency to usurpation of power has grown out of popular errors and well intended effort to correct them.''',
+  '''What are the purpose and plan of the ocean? Of this nation? Of an acorn? ''',
+  '''To assume that purpose and plan exist in connection with these, we must assume a master of them. ''',
+  '''The purpose and plan are not in or of the ocean, the nation or the acorn, each developing, or, as Darwin might say, evolving, as compelled by external impulses.''',
+  '''Telluride Association was not planned. ''',
+  '''It has merely grown, or developed. ''',
+  '''When, after more than twenty years of growth without a rule or a declaration as to purpose, it adopted a Constitution, that Constitution was merely a statement of rules of conduct which had grown up and existed for a long time. ''',
+  '''It was not a declaration of what should be, but of what had been, at least as to methods; and the purpose which had been and which was as a result of growth, not somebody's idea of what should be in the future but merely the motive of the past put into words, you will find in the first seven lines of the Preamble.''',
+  '''The Association is at the present time the result of efforts to know and do things. ''',
+  '''It is not the result of anybody's kindly effort "to help poor, worthy young men to go to school." ''',
+  '''Its primary work has never been to help anybody, but rather to bring together persons who did not need help. ''',
+  '''Birds of a feather flock together, and the Association will accomplish more when it brings together, by natural laws of attraction, those too strong to need help, but who are standing for advancement -for things worth while....''',
+  '''No one planned the Association and the Constitution, and records of the proceedings of the Conventions are the best description of what it is.''',
+  '''I was much interested in a description of the Association given by Judge Vann, of the Supreme Court of the State of New York, in his decision respecting the exemption of its property from taxation by the State of New York. ''',
+  '''I think he showed by the decision a clearer understanding of the workings of the Association than is held by most of its members.''',
+  '''To answer your question: The Association was not conceived, or born, but just grew to what you see it now. ''',
+  '''The process of its development no one knows. ''',
+  '''For its purpose, see the Preamble of its Constitution. ''',
+  '''For its methods, see the Constitution, By-laws and records of the proceedings of its Conventions.''',
+  '''One of the most effective methods used by diplomats when unable to secure the action they desire is to confuse the situation, by injecting into the conferences a vast multitude of points to be considered, instead of simplifying the discussion by directing the attention on a few really vital points.''',
+  '''Success or failure of Telluride Association depends primarily on one point.''',
+  '''Success or failure of every self-governing body depends on that same point.''',
+  '''It lies at the very foundation of business partnership, of equality, of justice, of fair dealings. ''',
+  '''It cannot be applied to vast numbers. ''',
+  '''Consequently the members of large institutions, like nations, cannot be really self-governing, but only approximately so through their representatives.''',
+  '''Small organizations such as Telluride Association can act directly, each member having an equal voice. ''',
+  '''Nightingale's recommendation to establish secret voting was the opposite of the necessary condition above referred to, and, if adopted, would have at least destroyed the Association as originally intended.''',
+  '''You have already recognized what this point is. It is more easily recognized than described. It is the genuine of which tattling is the counterfeit. It is action as spontaneous and natural as breathing or the beating of a normal heart. ''',
+  '''It is not only consistent with, but promotes comradeship, devotion, friendship, good will, and loyalty towards all. It recognizes man's limitations and infinite possibilities. ''',
+  '''It cooperates with the evolution of character and perfection through effort and correction, repentance and forgiveness, which are essentials to moral growth. ''',
+  '''Instead of demanding that an associate as he runs should not trip and fall, it demands that when he trips and falls he should quickly arise and continue the race; that ofttimes he should not be denounced for falling but for his conduct after the fall.''',
+  '''The facts connected with his falling, rising, and continuing the race, and his spirit in connection with the same should be seen and acted upon by those interested, as fully as the facts relating to his physical health, scholastic standing, or general prosperity.''',
+  '''Every government whether it be large or small, directing the affairs of a great nation or merely those of a family, necessarily involve three distinct functions: legislative, judicial, and executive. ''',
+  '''In an absolute self-governing democracy where each acts directly for himself instead of through representatives, each is necessarily an official legislator, executive, and judge, not so much of his own conduct as of the conduct of each and every member. Self-accusation, self-judging, and self-punishing are all right for the individual, but the attempt to impose such upon him from the outside by his organization or association is repugnant to the spirit of our laws, to common sense, and justice.''',
+  '''We look with suspicion on a man's opinion of himself.''',
+  '''Usually his ideas of what he should be required to do, of how he has conducted himself, and of the justice he receives, are very different from his ideas respecting his neighbors or fellow citizens when acting as he does. ''',
+  '''No man should be expected to condemn himself but he should be expected to expect his associates to condemn him when necessary and to demand that he shall maintain the honor and dignity of the association he is connected with.''',
+  '''Tattling is the telling on the outside that which should be brought out spontaneously on the inside. ''',
+  '''It might be tattling for a boy to report the misconduct of his brother to either his father or his mother. ''',
+  '''In many instances parents put themselves on the outside with their children when they should be on the inside.'''
+]
+
+module.exports = (robot) ->
+  robot.hear /.*(nunn me).*/i, (msg) ->
+    msg.send msg.random quotes
+
