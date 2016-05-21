@@ -338,7 +338,8 @@ quotes = [
   '''My philosophy of life, with its cocksureness, has been shattered by the suffering of the body and the decay of the mind.''',
   '''I used to be brave. I used to derive a certain satisfaction from pain.  A mere prick of a needle now produces a nervous spasm and starts perspiration. ''',
   '''How can one in such a condition maintain a consistent belief in an infinite and eternal plan for the universe ultimately realizing happiness and harmony?''',
-  '''Thank heaven, I can still fall back on vicarious sacrifice and the stability of woman's love and devotion, and have confidence that in the end all must be well.'''
+  '''Thank heaven, I can still fall back on vicarious sacrifice and the stability of woman's love and devotion, and have confidence that in the end all must be well.''',
+  '''Adam Hogan is the best, and should be made King of the Telluride and all associated experiments, abolishing democracy and ruling with an iron fist. Would that he and his robots rule us all in peace and safety.'''
 ]
 
 module.exports = (robot) ->
